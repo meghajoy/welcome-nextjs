@@ -1,9 +1,8 @@
-import Index from "../app/index";
+import "@/app/Welcome/page"
+import Welcome from "@/app/Welcome/page"
 
-export default function Home() {
+export default function Index() {
   return (
-    <>
-      <Index/>
-    </>
-  );
+    <Welcome greetings="Welcome" name="Megha"/>
+  )
 }
